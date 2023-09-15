@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IT questions</title>
+    <title>Qeneral questions</title>
 
     <link rel="stylesheet" href="quiz.css">
 </head>
@@ -12,9 +12,68 @@
 
         <header class="header">
 
-            <a class="logo" href="#home"><img src="../video-images/logo.png"></a>
+            <a class="logo" href="main.html"><img src="../video-images/logo.png"></a>
     
     </header>
-    
+
+
+    <section id="global">
+
+
+        <video autoplay loop muted plays-inline class="background">
+            <source src="../video-images/background.mp4" type="video/mp4">
+         </video>
+
+
+         <div class="levels">
+
+            <ul class="complexity">
+                <li complexity="Easy"><a href="#">Easy</a></li>
+                <li complexity="Medium"><a href="#">Medium</a></li>
+                <li complexity="Hard"><a href="#">Hard</a></li>
+            </ul>
+
+        </div>
+
+        <div class="quiztime">
+         <h4>Total Time : <br><span class="time">(2:00)</span></h4>
+         </div>
+
+        <div class="card">
+              <div class="card-all">
+              <h4 class="title">MCQ-Quiz</h4>
+              <h4>(<span class="num">0</span>/5)</h4>
+              </div>
+
+
+             
+                 <div class="card-start">
+                    <h3>IT knowledge questions</h3>
+                    <p>Each coplexity level have 5 questions, and each correct question is 5 points. 
+                    You can get maximum 25 points. You have 2 minutes to answer all questions, and score will be displayed at the end.
+                     Good Luck!</p>
+                     <button class="button"> Start the Quiz </button>
+
+                    </div>
+
+                    <div class="card-body">
+                        <div class="questions"></div>
+                        <div class="question"></div>
+                     
+                         <div id="options"></div>  
+
+                    
+                    </div>
+                    </div>
+                    </div>
+
+                    
+         </div>
+           
+        
+    </section>
+   
+    <script src="main.js"></script>
 </body>
 </html>
+
