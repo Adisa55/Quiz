@@ -1,0 +1,167 @@
+[
+    {
+        "question": "What is the color of blood when it's inside your body?",
+        "option1": "Blue",
+        "option2": "Red",
+        "option3": "White",
+        "option4": "Green",
+        "answer": "Red",
+        "explanation":"It's always red; it only appears blue because of the way light interacts with your skin.",
+        "category":"General",
+        "complexity":"Easy"
+    },
+    {
+        "question": "Which of these animals has the ability to laugh?",
+        "option1": "Dog",
+        "option2": "Whale",
+        "option3": "Bear",
+        "option4": "Rat",
+        "answer": "Rat",
+        "explanation":"So far, apes and rats are the only known animals to laugh.",
+        "category":"General",
+        "complexity":"Hard"
+    },
+    {
+        "question": "Which of these foods will never spoil?",
+        "option1": "Honey",
+        "option2": "Beef Jerky",
+        "option3": "Cereal",
+        "option4": "Beans",
+        "answer": "Honey",
+        "explanation":"Honey will never spoil because it has a very low moisture content and a high acidity level, which creates an inhospitable environment for bacteria and other microorganisms to grow. Additionally, honey contains natural preservatives such as hydrogen peroxide and high sugar content, which further inhibit the growth of bacteria and spoilage. These factors make honey an extremely shelf-stable food that can last indefinitely if stored properly",
+        "category":"General",
+        "complexity":"Easy"
+    },
+    {
+        "question": "People with what color hair are genetically mutants?",
+        "option1": "Black",
+        "option2": "Red",
+        "option3": "Blondie",
+        "option4": "Brown",
+        "answer": "Red",
+        "explanation":"People with red hair are genetically mutants because they have a variation in the MC1R gene, which is responsible for producing the pigment that determines hair color. ",
+        "category":"General",
+        "complexity":"Easy"
+    },
+    {
+        "question": "Which color is not there in the rainbow?",
+        "option1": "Indigo",
+        "option2": "Red",
+        "option3": "Brown",
+        "option4": "Yellow",
+        "answer": "Brown",
+        "explanation":"The colors of the rainbow are red, orange, yellow, green, blue, indigo, and violet. Brown is not included in the rainbow colors.",
+        "category":"General",
+        "complexity":"Easy"
+    },
+    {
+        "question": "What is the tallest waterfall in the world?",
+        "option1": "Angel Falls, Venezuela",
+        "option2": "Niagara Falls, New York",
+        "option3": "Wailua Falls, Hawaii",
+        "option4": "Sutherland Falls, New Zealand",
+        "answer": "Angel Falls, Venezuela",
+        "explanation":"Angel Falls in Venezuela is the tallest waterfall in the world at 979 m.",
+        "category":"General",
+        "complexity":"Hard"
+    },
+    {
+        "question": "What letter is not present anywhere on the periodic table of elements?",
+        "option1": "Q",
+        "option2": "J",
+        "option3": "F",
+        "option4": "X",
+        "answer": "J",
+        "explanation":"The letter J is not present; Q is mentioned once.",
+        "category":"General",
+        "complexity":"Medium"
+    },
+    {
+        "question": "About how many scents can a human nose remember?",
+        "option1": "Around 500",
+        "option2": "Around 10,000",
+        "option3": "Around 50,000",
+        "option4": "Around 1 million",
+        "answer": "Around 50,000",
+        "explanation":"The human nose is capable of remembering around 50,000 scents. This is due to the olfactory system, which is responsible for our sense of smell. The olfactory system contains millions of olfactory receptors that can detect different scents. These receptors send signals to the brain, where the scents are processed and stored as memories.",
+        "category":"General",
+        "complexity":"Medium"
+    },
+    {
+        "question": "How many stripes are there on the US flag?",
+        "option1": "10",
+        "option2": "11",
+        "option3": "12",
+        "option4": "13",
+        "answer": "13",
+        "explanation":"There are 13 stripes on the US flag. Each stripe represents one of the original 13 colonies that declared independence from Great Britain and formed the United States.",
+        "category":"General",
+        "complexity":"Medium"
+    },
+    {
+        "question": "What is the atomic sign for Helium on the periodic table?",
+        "option1": "H",
+        "option2": "He",
+        "option3": "Hl",
+        "option4": "Hu",
+        "answer": "He",
+        "explanation":"The correct atomic sign for Helium on the periodic table is He.",
+        "category":"General",
+        "complexity":"Medium"
+    },
+    {
+        "question": "Which is the fastest bird in the world?",
+        "option1": "Bald Eagle",
+        "option2": "Peregrine Falcon",
+        "option3": "Hummingbird",
+        "option4": "Raven",
+        "answer": "Peregrine Falcon",
+        "explanation":"The peregrine falcon is the fastest bird in the world, with a recorded airspeed of 389 km/hr.",
+        "category":"General",
+        "complexity":"Hard"
+    },
+    {
+        "question": "In which country is the Taj Mahal situated?",
+        "option1": "Pakistan",
+        "option2": "India",
+        "option3": "Japan",
+        "option4": "France",
+        "answer": "India",
+        "explanation":"The Taj Mahal is situated in India. It is a famous white marble mausoleum located in the city of Agra. It was built by the Mughal emperor Shah Jahan in memory of his wife Mumtaz Mahal. ",
+        "category":"General",
+        "complexity":"Hard"
+    },
+    {
+        "question": "What is the currency of Scotland?",
+        "option1": "Euro",
+        "option2": "Yen",
+        "option3": "Pound sterling",
+        "option4": "Haggis",
+        "answer": "Pound sterling",
+        "explanation":"",
+        "category":"General",
+        "complexity":"Hard"
+    },
+    {
+        "question": "Which is the longest river in the world?",
+        "option1": " Mississippi",
+        "option2": "Nile",
+        "option3": "Amazon",
+        "option4": "Yangtze",
+        "answer": "Nile",
+        "explanation":"YThe Nile is the longest river in the world. It stretches over 4,135 miles, flowing through eleven countries in northeastern Africa",
+        "category":"General",
+        "complexity":"Medium"
+    },
+    {
+        "question": "How many rings appear on the Olympic flag?",
+        "option1": "1",
+        "option2": "3",
+        "option3": "5",
+        "option4": "7",
+        "answer": "5",
+        "explanation":"The Olympic flag has five rings, which represent the five continents of the world.",
+        "category":"General",
+        "complexity":"Easy"
+    }
+]

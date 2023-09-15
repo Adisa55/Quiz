@@ -1,0 +1,341 @@
+[
+    {
+        "question": "Which of the following gas is reduced in the reduction process?",
+        "option1": "Oxygen",
+        "option2": "Helium",
+        "option3": "Carbon",
+        "option4": "Hydrogen",
+        "answer": "Hydrogen",
+        "explanation":"In the reduction process, oxygen is added, and hydrogen is reduced from the reactant.",
+        "category":"Science",
+        "complexity":"Easy"
+    },
+    {
+        "question": "Which of the following compound is mainly used in hand sanitizer?",
+        "option1": "Aldehyde",
+        "option2": "Acetic acid",
+        "option3": "Alcohol",
+        "option4": "Ketone",
+        "answer": "Alcohol",
+        "explanation":"Alcohol is mainly used in hand sanitizers. It kills germs present on our hands or any other places by rendering their oxygen supply.",
+        "category":"Science",
+        "complexity":"Easy"
+    },
+    {
+        "question": "What is the other name of Newton's first law of motion?",
+        "option1": "Action-reaction",
+        "option2": "Change in momentum",
+        "option3": "Law of inertia",
+        "option4": "Constant momentum",
+        "answer": "Law of inertia",
+        "explanation":"Newton's first law of motion is also known as the law of inertia. It states that everyone remains in their previous position.",
+        "category":"Science",
+        "complexity":"Easy"
+    }, {
+        "question": "What is the S.I unit of frequency?",
+        "option1": "Diopter",
+        "option2": "Second",
+        "option3": "Hertz",
+        "option4": "Meter",
+        "answer": "Hertz",
+        "explanation":"The frequency is equal to the number of cycles per unit time, so its S.I unit is s-1 which is equal to hertz. Therefore, the S.I unit of frequency is hertz.",
+        "category":"Science",
+        "complexity":"Easy"
+    }, {
+        "question": "Acid turns blue litmus paper into which color?",
+        "option1": "Black",
+        "option2": "Blue",
+        "option3": "Red",
+        "option4": "Orange",
+        "answer": "Red",
+        "explanation":"The acid turns blue litmus paper into red litmus paper, and the base turns red litmus paper into blue litmus paper.",
+        "category":"Science",
+        "complexity":"Easy"
+    }, 
+    {
+        "question": "Which of the following enzymes is not present in the human stomach?",
+        "option1": "Pepsin",
+        "option2": "Hydrochloric acid",
+        "option3": "Mucus",
+        "option4": "Trypsin",
+        "answer": "Trypsin",
+        "explanation":"There are three enzymes present in our stomach pepsin, hydrochloric acid, mucus. Trypsin is present in the small intestine. ",
+        "category":"Science",
+        "complexity":"Medium"
+    },
+    {
+        "question": "Which of the following gland is present in the human mouth?",
+        "option1": "Adrenal",
+        "option2": "Pituitary",
+        "option3": "Gonads",
+        "option4": "Salivary",
+        "answer": "Adrenal",
+        "explanation":"Adrenal gland is present above our kidneys. It controls our blood pressure. It also controls changes that occur in our body during the angry and happy mood.",
+        "category":"Science",
+        "complexity":"Medium"
+    },
+    {
+        "question": "What is the basic unit of our neural system?",
+        "option1": "Neutron",
+        "option2": "Neuron",
+        "option3": "Nephron",
+        "option4": "Nucleon",
+        "answer": "Neuron",
+        "explanation":"The basic unit of our neural system is the neuron. It connects our brain to all parts of our body.",
+        "category":"Science",
+        "complexity":"Medium"
+    },
+    {
+        "question": "How many carbon atoms are present in heptane?",
+        "option1": "6",
+        "option2": "7",
+        "option3": "8",
+        "option4": "5",
+        "answer": "7",
+        "explanation":"Heptane is a hydrocarbon chain that has seven carbon atoms. Therefore, option (b) is the correct answer.",
+        "category":"Science",
+        "complexity":"Medium"
+    },
+    {
+        "question": "According to newton's second law of motion, change in momentum per unit time is equal to ________.",
+        "option1": "Force",
+        "option2": "Energy",
+        "option3": "Acceleration",
+        "option4": "Work",
+        "answer": "Force",
+        "explanation":"According to newton's second law of motion, change in momentum per unit time is equal to force applied on that body. ",
+        "category":"Science",
+        "complexity":"Medium"
+    },
+    {
+        "question": "What is the atomic number of phosphorus?",
+        "option1": "12",
+        "option2": "13",
+        "option3": "14",
+        "option4": "15",
+        "answer": "15",
+        "explanation":"The atomic number of phosphorus is 15. It belongs to the 15th group and the 3rd period in the periodic table.",
+        "category":"Science",
+        "complexity":"Hard"
+    },
+    {
+        "question": "Which of the following quantity increases in a group when we move from top to bottom?",
+        "option1": "Valency",
+        "option2": "Electronegativity",
+        "option3": "Atomic size",
+        "option4": "Ionization energy",
+        "answer": "Atomic size",
+        "explanation":" When we move from top to bottom in the periodic table, the number of shells increases, which increases the size of the atom.",
+        "category":"Science",
+        "complexity":"Hard"
+    },
+    {
+        "question": " What is the PH range of acids?",
+        "option1": "0 - 7",
+        "option2": "7 - 14",
+        "option3": "1 - 7",
+        "option4": "7 - 15",
+        "answer": "0 - 7",
+        "explanation":"The total range of the PH scale is 0 to 14, in which the pH range of acids is 0 to 7.",
+        "category":"Science",
+        "complexity":"Hard"
+    },
+    {
+        "question": "Name the non-metals which have high melting and boiling point?",
+        "option1": "Gallium",
+        "option2": "Diamond",
+        "option3": "Cesium",
+        "option4": "Lead",
+        "answer": "Diamond",
+        "explanation":"Diamond is a non-metal but still has high melting and boiling point due to its covalent structure. In these options, all other options are metals.",
+        "category":"Science",
+        "complexity":"Hard"
+    },
+    {
+        "question": "Name the veins that carry oxygenated blood from the heart to other parts of the body?",
+        "option1": "Kidney",
+        "option2": "Arteries",
+        "option3": "Both (a) and (b)",
+        "option4": "None of the these",
+        "answer": "Arteries",
+        "explanation":"The arteries are attached to the heart. They carry oxygen-rich blood from the heart to other parts of the body.",
+        "category":"Science",
+        "complexity":"Hard"
+    },
+
+
+
+
+
+    {
+        "question": "Information technology (IT) is the use of computers to __________ data and information.",
+        "option1": "store",
+        "option2": "retrieve",
+        "option3": "store or retrieve",
+        "option4": "None of the above",
+        "answer": "store or retrieve",
+        "explanation":" Information technology (IT) is the use of computers to store or retrieve data[1] and information. IT is typically used within the context of business operations as opposed to personal or entertainment technologies",
+        "category":"it",
+        "complexity":"Easy"
+    },
+    {
+        "question": "IT is considered to be a subset of?",
+        "option1": "IST",
+        "option2": "ICT",
+        "option3": "IDT",
+        "option4": "IOT",
+        "answer": "ICT",
+        "explanation":" IT is considered to be a subset of information and communications technology (ICT).",
+        "category":"it",
+        "complexity":"Easy"
+    },
+    {
+        "question": "The term information technology in its modern sense first appeared in a ________.",
+        "option1": "1930",
+        "option2": "1937",
+        "option3": "1948",
+        "option4": "1958",
+        "answer": "1958",
+        "explanation":"The term information technology in its modern sense first appeared in a 1958 article published in the Harvard Business Review",
+        "category":"it",
+        "complexity":"Easy"
+    },
+    {
+        "question": "Data transmission has _________ aspects.",
+        "option1": "1",
+        "option2": "2",
+        "option3": "3",
+        "option4": "4",
+        "answer": "3",
+        "explanation":" Data transmission has three aspects: transmission, propagation, and reception.",
+        "category":"it",
+        "complexity":"Easy"
+    },
+    {
+        "question": "The relational database model introduced a programming-language independent Structured Query Language (SQL).",
+        "option1": "TRUE",
+        "option2": "FALSE",
+        "option3": "Can be true or false ",
+        "option4": " Can not say",
+        "answer": "TRUE",
+        "explanation":"True, The relational database model introduced a programming-language independent Structured Query Language (SQL), based on relational algebra.",
+        "category":"it",
+        "complexity":"Easy"
+    },
+    {
+        "question": "Which one is the first search engine in internet?",
+        "option1": "Google",
+        "option2": "Archie",
+        "option3": "Altavista",
+        "option4": "WAIS",
+        "answer": "Archie",
+        "explanation":"Archie one is the first search engine in internet.",
+        "category":"it",
+        "complexity":"Medium"
+    },
+    {
+        "question": "Number of bit used by the IPv6 address?",
+        "option1": "32 bit",
+        "option2": "64 bit",
+        "option3": "128 bit",
+        "option4": "256 bit",
+        "answer": "128 bit",
+        "explanation":"Number of bit used by the IPv6 address 128 bit",
+        "category":"it",
+        "complexity":"Medium"
+    },
+
+    {
+        "question": "The planning information requirements of executives can be categorized into three broad categories?",
+        "option1": "Environmental info",
+        "option2": "Internal and competitive info",
+        "option3": "Both A and B",
+        "option4": "None of the above",
+        "answer": "Both A and B",
+        "explanation":"The planning information requirements of executives can be categorized into three broad categories Environmental info, Internal and competitive info.",
+        "category":"it",
+        "complexity":"Medium"
+    },
+
+    {
+        "question": "Accuracy, purpose, relevance, validity and timeliness are the features of? ",
+        "option1": "Data",
+        "option2": "Information",
+        "option3": "Knowledge",
+        "option4": " All of the above",
+        "answer": "Information",
+        "explanation":"Accuracy, purpose, relevance, validity and timeliness are the features of Information",
+        "category":"it",
+        "complexity":"Medium"
+    },
+
+    {
+        "question": "Database Management Systems (DMS) emerged in the 1960s to address the problem of storing and retrieving large amounts of data accurately and quickly.",
+        "option1": "Yes",
+        "option2": "No",
+        "option3": "Can be yes or no",
+        "option4": "Can not say",
+        "answer": "Yes",
+        "explanation":"Yes, Database Management Systems (DMS) emerged in the 1960s to address the problem of storing and retrieving large amounts of data accurately and quickly.        ",
+        "category":"it",
+        "complexity":"Medium"
+    },
+    {
+        "question": "Which was the first purely object oriented programming language developed?",
+        "option1": "Kotlin",
+        "option2": "SmallTalk",
+        "option3": "Java",
+        "option4": "C++",
+        "answer": "SmallTalk",
+        "explanation":"SmallTalk was the first programming language developed which was purely object oriented. It was developed by Alan Kay. OOP concept came into the picture in 1970’s.",
+        "category":"it",
+        "complexity":"Hard"
+    },
+    {
+        "question": "Which header file is required in C++ to use OOP?",
+        "option1": "OOP can be used without using any header file",
+        "option2": "stdlib.h",
+        "option3": "iostream.h",
+        "option4": " stdio.h",
+        "answer": "OOP can be used without using any header file",
+        "explanation":" We need not include any specific header file to use OOP concept in C++, only specific functions used in code need their respective header files to be included or classes should be defined if needed.",
+        "category":"it",
+        "complexity":"Hard"
+    },
+    {
+        "question": "The feature by which one object can interact with another object is _____________",
+        "option1": "Message reading",
+        "option2": "Message Passing",
+        "option3": "Data transfer",
+        "option4": "Data Binding",
+        "answer": "Message Passing",
+        "explanation":"The interaction between two object is called the message passing feature. Data transfer is not a feature of OOP. Also, message reading is not a feature of OOP.",
+        "category":"it",
+        "complexity":"Hard"
+    },
+    {
+        "question": " Which of the following is not true about polymorphism?",
+        "option1": "Helps in redefining the same functionality",
+        "option2": "Helps in redefining the same functionality",
+        "option3": "It is feature of OOP",
+        "option4": "Ease in readability of program",
+        "answer": "Increases overhead of function definition always",
+        "explanation":"It never increases function definition overhead, one way or another if you don't use polymorphism, you will use the definition in some other way, so it actually helps to write efficient codes.",
+        "category":"it",
+        "complexity":"Hard"
+    },
+    {
+        "question": "What is an abstraction in object-oriented programming?",
+        "option1": "Hiding the implementation and showing only the features",
+        "option2": " Hiding the important data",
+        "option3": "Hiding the implementation",
+        "option4": "Showing the important data",
+        "answer": "Hiding the implementation and showing only the features",
+        "explanation":"It includes hiding the implementation part and showing only the required data and features to the user. It is done to hide the implementation complexity and details from the user. And to provide a good interface in programming.",
+        "category":"it",
+        "complexity":"Hard"
+    }
+
+
+        
+]
