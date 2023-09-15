@@ -13,16 +13,38 @@ let currentQuestionIndex = 0;
 let data; 
 let questionContainer, nextbutton; 
 let score = 0;
+let filteredQuestions = [];
+
+
+
+
+function loadData(){
+
+  fetch('questions.json')
+  .then(response => response.json())
+  .then(parsedData => {
+    data = parsedData; // Store the data globally
+    
+    if(data.length == 0) {
+      console.error('No questions found in the JSON data.');
+    }
+  })
+  .catch(error => {
+    console.error('Error fetching questions:', error);
+  });
+  
+}
+loadData();
+
 
 
 function filterAndDisplayQuestions(selectedComplexity) {
-  const filteredQuestions = data.filter(question => question.complexity === selectedComplexity);
+  filteredQuestions = data.filter(question => question.complexity === selectedComplexity);
+
 
   
-  if (filteredQuestions.length > 0) {
-    currentQuestionIndex = 0;
-    displayQuestion(filteredQuestions[currentQuestionIndex]);
-  } else {
+  if (filteredQuestions.length == 0){
+
     questionContainer.textContent = 'No questions found for this complexity.';
     optionsContainer.innerHTML = '';
     nextbutton.style.display = 'none';
@@ -30,13 +52,6 @@ function filterAndDisplayQuestions(selectedComplexity) {
 
   
 }
-complexity.forEach(level => {
-  level.addEventListener('click', function () {
-      const selectedComplexity = this.getAttribute('complexity');
-      filterAndDisplayQuestions(selectedComplexity);
-      displayQuestion();
-  });
-});
 
 
 function displayQuestion(que) {
@@ -70,22 +85,26 @@ function displayQuestion(que) {
     
     nextbutton = document.querySelector('.next'); 
     nextbutton.style.display = 'block';
-    nextbutton.textContent = currentQuestionIndex === data.length - 1 ? 'Submit' : 'Next';
+    nextbutton.textContent = currentQuestionIndex === filteredQuestions.length - 1 ? 'Submit' : 'Next';
     nextbutton.removeEventListener('click', handleNextButtonClick);
     nextbutton.addEventListener('click', handleNextButtonClick);
 
 
    
   }
+  complexity.forEach(level => {
+    level.addEventListener('click', function () {
+        const selectedComplexity = this.getAttribute('complexity');
+        filterAndDisplayQuestions(selectedComplexity);
+      
+    });
+  });
 
 function startQuiz() {
-  fetch('questions.json')
-    .then(response => response.json())
-    .then(parsedData => {
-      data = parsedData; // Store the data globally
-      
-      if (data.length > 0) {
-        displayQuestion(data[currentQuestionIndex]);
+  
+      if (filteredQuestions.length > 0) {
+
+        displayQuestion(filteredQuestions[0]);
         cardStart.style.display = 'none';
         
         nextbutton.addEventListener('click', handleNextButtonClick);
@@ -94,21 +113,18 @@ function startQuiz() {
             quizFinished(); 
           });
         }
-      } else {
-        console.error('No questions found in the JSON data.');
-      }
-    })
-    .catch(error => {
-      console.error('Error fetching questions:', error);
-    });
+      } 
+
 }
+
+
 
 function handleNextButtonClick() {
   const selectedAnswer = document.querySelector('input[name="options"]:checked');
   if (selectedAnswer) {
-    if (currentQuestionIndex < data.length - 1) {
+    if (currentQuestionIndex < filteredQuestions.length - 1) {
       currentQuestionIndex++;
-      displayQuestion(data[currentQuestionIndex]);
+      displayQuestion(filteredQuestions[currentQuestionIndex]);
     } else {
       quizFinished();
     }
@@ -146,7 +162,7 @@ function startTimer() {
 
 
 function calculateScore() {
-  const totalScore = data.reduce((score, que) => {
+  const totalScore = filteredQuestions.reduce((score, que) => {
     if (que.answer === getSelectedAnswer(que)) {
       return score + 5;
     }
