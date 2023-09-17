@@ -21,7 +21,7 @@ let quizStarted;
 
 function loadData(){
 
-  fetch('questions.json')
+  fetch('it.json')
   .then(response => response.json())
   .then(parsedData => {
     data = parsedData; 

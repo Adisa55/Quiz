@@ -138,7 +138,7 @@
         "option3": "Pound sterling",
         "option4": "Haggis",
         "answer": "Pound sterling",
-        "explanation":"",
+        "explanation":"The currency of Scotland is pound sterling. Pound sterling is the official currency of the United Kingdom, which includes Scotland. It is commonly used for transactions and is accepted throughout Scotland. ",
         "category":"General",
         "complexity":"Hard"
     },
@@ -149,7 +149,7 @@
         "option3": "Amazon",
         "option4": "Yangtze",
         "answer": "Nile",
-        "explanation":"YThe Nile is the longest river in the world. It stretches over 4,135 miles, flowing through eleven countries in northeastern Africa",
+        "explanation":"The Nile is the longest river in the world. It stretches over 4,135 miles, flowing through eleven countries in northeastern Africa",
         "category":"General",
         "complexity":"Medium"
     },
