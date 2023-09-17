@@ -38,10 +38,10 @@
 
 .background {
     width: 100%;
-    min-height: 850px;
+    height: 1500px;
     object-fit: cover;
     position: absolute;
-    z-index: -1; /* Put the background behind the buttons */
+    z-index: -1; 
 }
 
 .category .general,
@@ -107,7 +107,7 @@
     padding:50px;
 
 }
-.levels .complexity li{
+.levels ul li{
     padding:20px;
     display:inline;
     align-items:center;
@@ -123,6 +123,12 @@
     background-color:#f7bbae;
     padding:20px;
     font-weight:700;
+}
+
+.levels ul .active a{
+    color:#f7bbae;
+    background-color:#076477
+  
 }
 
 .quiztime{
@@ -182,3 +188,4 @@
     background-color:#f7bbae;
 
 }
+
